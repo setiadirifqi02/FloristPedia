@@ -1,0 +1,43 @@
+.to_top_btn {
+    position: fixed;
+    bottom: 40px;
+    right: 25px;
+    z-index: 300;
+    background-color: #1A3c40;
+    border: none;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    color: #fff;
+    cursor: pointer;
+    animation: movebtn 3s ease-in-out infinite;
+    transition: all 0.8s ease-in-out;
+}
+
+.to_top_btn:hover{
+    background-color: #307672;
+    color: #11eb79;
+}
+
+.arrow_top_icon svg{
+    width: 24px;
+    height: 24px;
+}
+
+@keyframes movebtn {
+    0%{
+      transform: translateY(0px);
+    }
+    50%{
+      transform: translateY(8px);
+    }
+    100%{
+      transform: translateY(0px);
+    }
+    /* 75%{
+      transform: translateY(-4px);
+    }
+    100%{
+      transform: translateY(0px);
+    } */
+  }

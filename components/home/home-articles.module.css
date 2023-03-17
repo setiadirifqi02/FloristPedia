@@ -1,0 +1,28 @@
+.home_articles{
+    display: flex;
+    flex-direction: column;
+    background-color: #1A3C40;
+    color: #ffff;
+}
+
+.articles_content{
+    padding: 20px 20px;
+}
+
+@media (min-width:768px) {
+    .home_articles{
+        flex-direction: column-reverse;
+    }
+    .articles_content{
+        display: flex;
+        flex-direction: row;
+    }
+    
+}
+
+@media (min-width:1024px) {
+    .articles_content{
+        padding: 40px 40px;
+    }
+    
+}
