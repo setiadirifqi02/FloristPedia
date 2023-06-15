@@ -1,38 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# FloristPedia
 
-## Getting Started
+### Description
+Website application for all your houseplant needs. FloristPedia is here to provide you with a wealth of information, tips, and tricks to help you care for your houseplants and create a thriving indoor oasis. 
 
-First, run the development server:
+---
+### Features
+- Display a List of houseplants or articles and see detailed  houseplant or article information.
+- Fillter article by year or month or both
+---
+### Screen Shots
+- Home Page
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+<img src="https://github.com/setiadirifqi02/FloristPedia/assets/110323140/07a5fdec-5edd-48a2-9efb-76349411a5ff" width="400" height="100%" >
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- List of Houseplants  Page
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+<img src="https://github.com/setiadirifqi02/FloristPedia/assets/110323140/171bc00c-89fd-413d-abd3-9a8d442a3f09" width="400" height="100%" >
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Detailed houseplant Page
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<img src="https://github.com/setiadirifqi02/FloristPedia/assets/110323140/0983f303-f24f-4525-bd16-4344f6892137" width="400" height="100%" >
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- List of Articles Page
 
-## Learn More
+<img src="https://github.com/setiadirifqi02/FloristPedia/assets/110323140/1c0431f3-fa02-4cbe-b6ce-196310c7f30e" width="400" height="100%" >
 
-To learn more about Next.js, take a look at the following resources:
+- Detailed Article Page
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<img src="https://github.com/setiadirifqi02/FloristPedia/assets/110323140/3ce21031-d79b-47e5-9935-fa5b915b8216" width="400" height="100%" >
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Available Scripts
+---
+In the project directory, you can run:
+
+**npm run dev**
+Runs the app in the development mode.
+Open [http://localhost:3000] to view it in your browser. The page will reload when you make changes. You may also see any lint errors in the console.
+
+**npm run build**
+Builds the app for production to the `build` folder.
+
+**npm run start**
+run the built app on the HTTP server in your browser.
+
+---
+### Technologies Used
+- NextJS
+- ReactJS
+- CSS Module
